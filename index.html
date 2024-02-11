@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <!-- my CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
   <title>Frontend Mentor | Social links profile</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
+<body class="flex justify-center bg-neutral-950 text-center tracking-tight leading-9">
+  <div class="my-20 rounded-md p-6 bg-neutral-900">
+    <img class="mx-auto h-20 w-auto rounded-full" src="assets/profile.jpeg" alt="profile picture">
+    <h1 class="my-1 text-2xl text-neutral-200">Rebeka D</h1>
+    <h2 class="my-1 text-lg text-lime-500">Amsterdam, the Netherlands</h2>
+    <p class="my-3 text-s text-gray-400">"Front-end developer and chaos gardener"</p>
+    <div class="mt-4 sm:mx-auto sm:w-full sm:max-w-sm">
+      <button class="my-3 flex w-full justify-center rounded-md bg-neutral-700 px-3 py-1.5 text-sm font-semibold leading-6 text-neutral-300 shadow-sm hover:bg-lime-500 hover:text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">GitHub</button>
+      <button class="my-3 flex w-full justify-center rounded-md bg-neutral-700 px-3 py-1.5 text-sm font-semibold leading-6 text-neutral-300 shadow-sm hover:bg-lime-500 hover:text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Frontend Mentor</button>
+      <button class="my-3 flex w-full justify-center rounded-md bg-neutral-700 px-3 py-1.5 text-sm font-semibold leading-6 text-neutral-300 shadow-sm hover:bg-lime-500 hover:text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">LinkedIn</button>
+      <button class="my-3 flex w-full justify-center rounded-md bg-neutral-700 px-3 py-1.5 text-sm font-semibold leading-6 text-neutral-300 shadow-sm hover:bg-lime-500 hover:text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Twitter</button>
+      <button class="my-3 flex w-full justify-center rounded-md bg-neutral-700 px-3 py-1.5 text-sm font-semibold leading-6 text-neutral-300 shadow-sm hover:bg-lime-500 hover:text-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Instagram</button>
 
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    </div>
   </div>
+
+
+  <div class="attribution" style="display: none;">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Beks</a>.
+  </div>
+
+
 </body>
+
 </html>
